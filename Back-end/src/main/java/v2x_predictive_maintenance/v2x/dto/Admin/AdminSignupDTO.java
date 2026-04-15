@@ -29,7 +29,7 @@ public class AdminSignupDTO {
     @NotBlank(message = "사원번호는 필수입니다.")
     private String employeeNo; // 사원번호
 
-    @NotBlank(message = "전화번호를 입력해주세요.")
+    @NotBlank(message = "전화번호는 필수입니다.")
     @Pattern(
             regexp = "^010-\\d{4}-\\d{4}$",
             message = "휴대폰번호는 010-1234-5678 형식으로 입력해주세요."
